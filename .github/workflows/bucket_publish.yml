@@ -1,11 +1,10 @@
-name: bucket_push
+name: bucket_publish
 on:
-  pull_request:
+  push:
     branches:
       - master
-
 jobs:
-  bucket_push:
+  bucket_publish:
     runs-on: ubuntu-latest
     name: Create a Textile Bucket
     steps:
@@ -19,7 +18,7 @@ jobs:
       id: push
       uses: textileio/github-action-bucket-push@master
       with:
-        bucket-name: '${{ secrets.BUCKET_NAME }}-${{ github.event.pull_request.id }}'
+        bucket-name: '${{ secrets.BUCKET_NAME }}'
         path: 'public/*'
         token: ${{ secrets.TEXTILE_AUTH_TOKEN }}
     # Use the output from the `hello` step
