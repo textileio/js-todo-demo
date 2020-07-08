@@ -1,4 +1,4 @@
-**NOTICE: Please see https://github.com/textileio/js-exmaples for the most up-to-date JS examples using Textile tooling.**
+**NOTICE: Please see https://github.com/textileio/js-examples for the most up-to-date JS examples using Textile tooling.**
 
 # Threads Todo Demo
 
