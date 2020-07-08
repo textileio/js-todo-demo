@@ -1,3 +1,5 @@
+**NOTICE: Please see https://github.com/textileio/js-exmaples for the most up-to-date JS examples using Textile tooling.**
+
 # Threads Todo Demo
 
 This project is Textile's take on the classic React todo app demo. It uses [Create React App](https://github.com/facebook/create-react-app) with Typescript, with [Semantic UI](https://react.semantic-ui.com) React components for styling, and [Mobx](https://mobx.js.org) for reactive state management. But most importantly, it uses Textile's [Threads Store API](https://github.com/textileio/js-threads-client) to create, store, manage, and distribute the underlying app data. The data is encrypted and pushed to IPFS via Threads, with only a few extra lines of code!
